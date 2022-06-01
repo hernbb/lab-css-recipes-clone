@@ -24,6 +24,8 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #section-1 {
+  display: flex;
+  flex-direction: column;
   margin-top: 3em;
 }
 #section-1 p {
@@ -33,17 +35,25 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+#section-1 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 #section-1 img {
   height: 80px;
   width: 500px;
-  padding-top: 50px;
+  /* padding-top: 50px;
   padding-left: 380px;
-  padding-bottom: 50px;
+  padding-bottom: 50px; */
 }
 #section-1 hr {
   margin-bottom: 50px;
 }
 #ingredients {
+  display: flex;
+  flex-direction: column;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: gray;
@@ -54,12 +64,18 @@
 #ingredients ul {
   list-style: none;
 }
+#ingredients div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 #ingredients img {
   height: 90px;
   width: 400px;
-  padding-top: 50px;
+  /* padding-top: 50px;
   padding-left: 380px;
-  padding-bottom: 50px;
+  padding-bottom: 50px; */
 }
 #ingredients hr {
   margin-bottom: 50px;
